@@ -20,7 +20,6 @@ $(function() {
           $(this).animate({
             right: "+="+width
           }, 600, function() {
-            $(this).css('position', 'absolute');
             animationFilterDone = true;
           });
         }
